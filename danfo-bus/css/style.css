@@ -35,7 +35,7 @@ body{
     bottom: 0;
   }
   50% {
-    bottom: 15px;
+    bottom: 5px;
   }
   100% {
     bottom: 0;
@@ -60,6 +60,19 @@ body{
   
 }
 
+.windshield{
+    position: absolute;
+    width: 40px;
+    height: 95px;
+    background-color: #fff;
+    top: 30px;
+    right: 780px;
+    border-top-left-radius: 100%;
+    #border-bottom-left-radius: 50px;
+    border:  6px solid #2C2D34;
+    z-index: 1;
+    
+}
 .doorline1{
     position: absolute;
     width: 225px;
